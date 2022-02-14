@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/sipdar/mp3lame-for-ios"
   s.license          = 'LPGL'
   s.author           = { "Sunny" => "sipdar@163.com" }
-  s.source           = { :git => "https://github.com/sipdar/mp3lame-for-ios.git", :tag => s.version.to_s ,:submodules => true}
+  s.source           = { :git => "git@github.com:MQLiu/mp3lame-for-iOS.git", :tag => s.version.to_s ,:submodules => true}
   s.ios.deployment_target = '7.0'
   s.ios.vendored_frameworks = 'lame.framework'
 
